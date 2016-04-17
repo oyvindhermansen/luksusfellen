@@ -7,7 +7,8 @@ function dragit() {
   const $storedIncome = $('.board__income')
   $storedIncome.draggable({
     containment: 'html',
-    revert: true
+    revert: 'invalid',
+    helper: 'clone'
   })
 }
 
