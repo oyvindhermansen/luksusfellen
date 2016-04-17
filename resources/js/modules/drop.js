@@ -13,6 +13,8 @@ function dropit() {
       const $clone = ui.helper.clone()
       const $this = $(this)
       $this.append($clone)
+
+
     }
   })
 }
