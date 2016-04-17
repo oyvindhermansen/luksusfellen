@@ -5,6 +5,6 @@ import { dropit } from './modules/drop'
 import { moneyMaker } from './modules/moneymaker'
 
 checkIfIncomeOnEntry()
+moneyMaker()
 dragit()
 dropit()
-moneyMaker()

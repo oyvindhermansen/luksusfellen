@@ -8,7 +8,7 @@ function dragit() {
   $bill.draggable({
     containment: 'html',
     revert: 'invalid',
-    helper: 'clone'
+    helper: 'clone',
   })
 }
 

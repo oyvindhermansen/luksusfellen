@@ -8,6 +8,7 @@ function dropit() {
   const $dropArea = $('.board__main')
   $dropArea.droppable({
     hoverClass: 'active-money-hover',
+    accept: '.bill',
     drop: function(event, ui) {
       const $clone = ui.helper.clone()
       const $this = $(this)
