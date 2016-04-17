@@ -4,7 +4,11 @@ block title
   title Tavlen
 
 block content
-  div.row
-    div.column
-      h1 Tavlehelvete
-      span Din inntekt: #{income}
+  div.board
+    div.row
+      div.column.medium-4
+        div.board__sidebar
+          span.board__income Din inntekt: #{income}
+      div.column.medium-8
+        div.board__main
+        

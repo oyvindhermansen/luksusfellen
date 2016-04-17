@@ -6,6 +6,10 @@ export default function(app) {
   })
 
   app.get('/board', (req, res) => {
+    const income = req.body.income
+    if (!income) {
+      res.redirect('/')
+    }
     res.render('board')
   })
 

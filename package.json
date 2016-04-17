@@ -10,14 +10,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ludens-reklamebyra/expressmal.git"
+    "url": "git+https://github.com/oyvindhermansen/luksusfellen.git"
   },
   "author": "Øyvind Hermansen",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/ludens-reklamebyra/expressmal/issues"
+    "url": "https://github.com/oyvindhermansen/luksusfellen.git/issues"
   },
-  "homepage": "https://github.com/ludens-reklamebyra/expressmal#readme",
+  "homepage": "https://github.com/oyvindhermansen/luksusfellen.git#readme",
   "dependencies": {
     "babel": "^6.3.26",
     "babel-core": "^6.4.5",
@@ -28,6 +28,7 @@
     "jade": "^1.11.0",
     "join": "^3.0.0",
     "jquery": "^2.2.0",
+    "jquery-ui": "^1.10.5",
     "path": "^0.12.7"
   },
   "devDependencies": {

@@ -6,10 +6,4 @@ function income(income) {
   }
 }
 
-function expences(expences) {
-  if (expences) {
-    return parseInt(expences)
-  }
-}
-
-export { income, expences }
+export { income }

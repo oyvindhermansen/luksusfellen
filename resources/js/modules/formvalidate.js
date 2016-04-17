@@ -1,6 +1,6 @@
 'use strict'
 import $ from 'jquery'
-import { income, expences } from './algorithms'
+import { income } from './algorithms'
 
 
 function checkIfIncomeOnEntry() {
