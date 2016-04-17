@@ -1,0 +1,16 @@
+{
+  "name": "expressmal",
+  "description": "Ludensmal for Express-apps",
+  "main": "start.js",
+  "authors": [
+    "Øyvind Hermansen"
+  ],
+  "license": "ISC",
+  "homepage": "https://github.com/ludens-reklamebyra/expressmal",
+  "moduleType": [],
+  "private": true,
+  "dependencies": {
+    "font-awesome": "^4.6.1",
+    "foundation": "^5.5.3"
+  }
+}

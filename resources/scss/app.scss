@@ -1,0 +1,14 @@
+// Bower components
+@import 'bower_components/foundation/scss/foundation/components/grid';
+@import 'bower_components/foundation/scss/foundation/components/block-grid';
+@import 'bower_components/font-awesome/scss/font-awesome';
+@import url('https://fonts.googleapis.com/css?family=Ubuntu:400,300,700');
+
+// Settings
+@import './settings/functions';
+@import './settings/mixins';
+@import './settings/variables';
+@import './settings/base';
+
+// Modules goes here
+@import './modules/frontpage';
