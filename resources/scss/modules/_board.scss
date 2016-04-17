@@ -2,9 +2,27 @@
 
   &__sidebar {
     height: 100vh;
+
+    .bill {
+      width: 130px;
+      margin: 0 $gutter - 0.5 $gutter - 0.5 0;
+    }
   }
 
   &__main {
     height: 100vh;
+
+    .bill {
+      width: 130px;
+    }
+  }
+
+  &__income {
+    font-size: $gutter;
+
+    span {
+      font-size: $gutter * 3;
+      vertical-align: middle;
+    }
   }
 }
