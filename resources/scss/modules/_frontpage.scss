@@ -1,12 +1,12 @@
 .income {
-    display: table;
-    width: 100%;
+  display: table;
+  width: 100%;
 
   &__form {
     display: table-cell;
+    height: 100vh;
     text-align: center;
     vertical-align: middle;
-    height: 100vh;
   }
 
   &__title {
@@ -14,19 +14,19 @@
   }
 
   &__logo {
-    width: 100px;
     display: block;
     margin: 0 auto;
+    width: 100px;
   }
 
   &__input {
     @include transition(.1s ease-in-out);
-    width: 400px;
-    height: 60px;
-    font-size: $gutter * 1.3;
-    padding-left: $gutter;
     border: 2px solid $black;
     border-radius: 30px;
+    font-size: $gutter * 1.3;
+    height: 60px;
+    padding-left: $gutter;
+    width: 400px;
 
     @media only screen and (max-width: 500px) {
       width: 80vw;
@@ -43,14 +43,14 @@
   }
 
   &__err {
+    color: $error-color;
     display: block;
     padding-top: $gutter;
-    color: $error-color;
   }
 
   &__submit {
-    border: none;
     background: $white;
+    border: 0;
     cursor: pointer;
     font-size: $gutter * 1.5;
     outline: none;

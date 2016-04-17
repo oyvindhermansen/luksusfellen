@@ -10,7 +10,7 @@ block content
         form(method='post', action='/board', class='income__form')
           img(src='images/lf.jpg', class='income__logo')
           h1.income__title Har du betalt regningene dine?
-          input(type='number', placeholder='Din inntekt', class='income__input')
+          input(type='number', placeholder='Din inntekt', class='income__input', name='income')
           span.income__err
           button(type='submit', class='income__submit') Send inn 
             i(class='fa fa-arrow-right')
