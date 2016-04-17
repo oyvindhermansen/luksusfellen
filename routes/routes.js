@@ -16,6 +16,5 @@ export default function(app) {
   app.post('/board', (req, res) => {
     const income = req.body.income
     res.render('board', {income: income})
-    console.log(income)
   })
 }

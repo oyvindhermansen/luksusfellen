@@ -4,8 +4,8 @@ import { draggable } from 'jquery-ui/draggable'
 
 
 function dragit() {
-  const $storedIncome = $('.board__income')
-  $storedIncome.draggable({
+  const $bill = $('.bill')
+  $bill.draggable({
     containment: 'html',
     revert: 'invalid',
     helper: 'clone'
