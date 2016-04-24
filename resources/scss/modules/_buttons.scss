@@ -1,0 +1,17 @@
+.button {
+  @include transition(.1s ease-in-out);
+  outline: none;
+  border: none;
+
+  cursor: pointer;
+
+  &--noair {
+    background: $white;
+    color: $black;
+    padding: 0;
+
+    &:hover {
+      border-bottom: 2px solid $black;
+    }
+  }
+}

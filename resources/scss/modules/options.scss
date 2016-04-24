@@ -1,0 +1,29 @@
+.opts {
+
+  &__income {
+    font-size: $gutter;
+    float: left;
+  }
+
+  &__income-current {
+    font-size: $gutter * 3;
+    vertical-align: middle;
+    border-right: 2px solid $black;
+    padding-right: $gutter;
+  }
+
+  &__bills {
+    float: right;
+
+    .bill {
+      margin: 15px 10px;
+      width: 100px;
+      z-index: 1;
+      position: relative;
+    }
+  }
+
+  .new-board {
+    margin: 30px;
+  }
+}

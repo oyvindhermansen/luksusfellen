@@ -11,6 +11,10 @@ body {
   }
 }
 
+.row {
+  max-width: 80rem;
+}
+
 .active-money-hover {
-  border: 2px solid $black;
+  border: 2px solid $primary-color;
 }

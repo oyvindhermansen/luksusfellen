@@ -10,7 +10,7 @@ function moneyMaker() {
     '../images/1000_kroner.jpg'
   ]
 
-  const $output = $('.board__sidebar-bills')
+  const $output = $('.opts__bills')
   const billValues = [50, 100, 200, 500, 1000]
   let count = 0
 

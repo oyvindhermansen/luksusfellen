@@ -1,28 +1,15 @@
 .board {
 
-  &__sidebar {
-    height: 100vh;
+  &__section {
+    background-image: url('/images/board.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 500px;
+    width: 100%;
 
     .bill {
-      width: 130px;
-      margin: 0 $gutter - 0.5 $gutter - 0.5 0;
-    }
-  }
-
-  &__main {
-    height: 100vh;
-
-    .bill {
-      width: 130px;
-    }
-  }
-
-  &__income {
-    font-size: $gutter;
-
-    span {
-      font-size: $gutter * 3;
-      vertical-align: middle;
+      width: 110px;
     }
   }
 }

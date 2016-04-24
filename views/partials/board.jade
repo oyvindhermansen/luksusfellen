@@ -4,12 +4,19 @@ block title
   title Tavlen
 
 block content
-  div.board
+  div.header
     div.row
-      div.column.medium-4
-        div.board__sidebar
-          span.board__income Din inntekt: <span class="board__income-current">#{income}</span>
-          div.board__sidebar-bills
-      div.column.medium-8
-        div.board__main
+      div.column
+        p logo
+  div.opts
+    div.row
+      div.column
+        span.opts__income Din inntekt: <span class="opts__income-current">#{income}</span>
+        div.opts__bills
+        button.button.button--noair.new-board Lag ny tavle 
+          i.fa.fa-plus
+  div.board  
+    div.row
+      div.column.medium-12
+        ul.board__container.small-block-grid-1.medium-block-grid-3.large-block-grid-4
         

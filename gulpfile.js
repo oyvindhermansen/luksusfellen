@@ -82,7 +82,7 @@ gulp.task('copyfonts', function() {
    .pipe(gulp.dest('./public/fonts'))
 })
 
-gulp.task('compile', ['bundle', 'sass', 'copyfonts'])
+gulp.task('compile', ['bundle', 'sass'])
 gulp.task('lint', ['scss-lint'])
 gulp.task('default', () => {
   runSequence('lint', ['compile', 'watch'])

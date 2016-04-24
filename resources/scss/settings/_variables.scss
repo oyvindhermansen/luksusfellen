@@ -4,3 +4,19 @@ $gutter: 1rem;
 $black: #000;
 $white: #fff;
 $error-color: #b23a48;
+
+
+//main
+$primary-color: #4C5760;
+$secondary-color: #3F4045;
+
+//
+// Button colors
+//
+
+// green
+$green-fill: #a2ccb8;
+$green-border: darken($green-fill, 5%);
+// black
+$black-fill: #262626;
+$black-border: darken($black-fill, 5%);

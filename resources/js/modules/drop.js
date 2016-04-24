@@ -4,12 +4,15 @@ import { droppable } from 'jquery-ui/droppable'
 import { draggable } from './drag'
 
 function dropit() {
-  const $dropArea = $('.board__main')
+  const $dropArea = $('.board__container').find('.board__section')
+  let cloneCounter = 0
   $dropArea.droppable({
     hoverClass: 'active-money-hover',
+    snapMode:'inner',
     accept: '.bill',
+    grid: [150,150],
     drop: function(event, ui) {
-      const $income = $('.board__income-current').text()
+      const $income = $('.opts__income-current').text()
       let incomeValue = parseInt($income)
       if (incomeValue > 0) {
         const $clone = ui.helper.clone()
@@ -20,11 +23,10 @@ function dropit() {
         if (incomeValue - billValue < 0) {
           // error msg
         } else {
-          $this.append($clone)
-          $clone.draggable({
-            containment: 'parent',
-          })
-          $('.board__income-current').html(incomeValue - billValue)
+          $this.append($clone.draggable({
+            containment: 'parent'
+          }))
+          $('.opts__income-current').html(incomeValue - billValue)
         }
       }
     }
