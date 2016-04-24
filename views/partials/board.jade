@@ -4,10 +4,17 @@ block title
   title Tavlen
 
 block content
+  div.overlay
+    div.overlay__centered
+      i.fa.fa-remove.overlay__close
+      h2.overlay__title Velg et passende navn for din kategori.
+      span.overlay__error
+      input(type='text', class='overlay__name-input', placeholder='Skriv her...')
+      input(type='button', class='overlay__button', value='OK')
   div.header
     div.row
       div.column
-        p logo
+        a(href='/', class='header__branding') Luxuz
   div.opts
     div.row
       div.column
