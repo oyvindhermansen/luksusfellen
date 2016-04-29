@@ -10,11 +10,11 @@ function newBoard($trigger, $appendTo) {
 
     $overlay.fadeIn(200)
 
-    $overlayBtn.on('click', () => {
+    $overlayBtn.off().on('click', () => {
       const $nameInput = $('.overlay__name-input')
       const $overlay = $('.overlay')
       const $errorMsg = $('.overlay__error')
-
+      
       if ($nameInput.val() === '') {
         $errorMsg.html('<p>Du må skrive inn et navn.</p>')
         return false
