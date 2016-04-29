@@ -5,6 +5,8 @@ $black: #000;
 $white: #fff;
 $error-color: #b23a48;
 
+// shadows
+$dimmed-dark: rgba(0, 0, 0, .8);
 
 //main
 $primary-color: #4C5760;
@@ -20,3 +22,8 @@ $green-border: darken($green-fill, 5%);
 // black
 $black-fill: #262626;
 $black-border: darken($black-fill, 5%);
+
+// action buttons
+
+// warning
+$warning: bisque;

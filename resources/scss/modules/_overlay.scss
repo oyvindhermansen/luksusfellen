@@ -1,0 +1,67 @@
+.overlay {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  background: $dimmed-dark;
+  z-index: 200;
+  display: none;
+
+  &__centered {
+    width: 500px;
+    padding: $gutter * 2;
+    background: $primary-color;
+    display: inline-block;
+    position: absolute;
+    left:50%;
+    top:50%;
+    transform: translate(-50%, -50%);
+
+    @media #{$small-only} {
+      width: 90%;
+    }
+  }
+
+  &__title {
+    color: $white;
+    margin-top: 0;
+  }
+
+  &__name-input {
+    border: none;
+    height: 40px;
+    padding-left: $gutter - .5;
+    width: 80%;
+    float: left;
+    outline: none;
+  }
+
+  &__button {
+    @include transition(.1s ease-in-out);
+    width: 20%;
+    height: 40px;
+    border: none;
+    float: right;
+    cursor: pointer;
+    background: $green-fill;
+    color: $white;
+    outline: none;
+
+    &:hover {
+      background: darken($green-fill, 10%);
+    }
+  }
+
+  &__close {
+    position: absolute;
+    font-size: $gutter * 1.5;
+    top: 0;
+    right: 0;
+    margin: $gutter - 0.3 $gutter;
+    color: $white;
+    cursor: pointer;
+  }
+
+  &__error {
+    color: $warning;
+  }
+}

@@ -3,6 +3,7 @@
 @import 'bower_components/foundation/scss/foundation/components/block-grid';
 @import 'bower_components/font-awesome/scss/font-awesome';
 @import url('https://fonts.googleapis.com/css?family=Ubuntu:400,300,700');
+@import url('https://fonts.googleapis.com/css?family=Just+Another+Hand');
 
 // Settings
 @import './settings/functions';
@@ -15,4 +16,5 @@
 @import './modules/header';
 @import './modules/options';
 @import './modules/buttons';
+@import './modules/overlay';
 @import './modules/board';
